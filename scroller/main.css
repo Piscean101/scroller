@@ -1,0 +1,16 @@
+#media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+}
+#media-scroller .media-group {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    border: 2px solid red;
+}
+#media-scroller .media-group .media {
+    height: 500px;
+    aspect-ratio: 7 / 10;
+    margin: 5px;
+}
